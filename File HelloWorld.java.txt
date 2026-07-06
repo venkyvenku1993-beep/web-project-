@@ -1,0 +1,19 @@
+// File: HelloWorld.java
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Print a welcome message
+        System.out.println("Hello, GitHub!");
+
+        // Practice: add two numbers
+        int a = 5;
+        int b = 7;
+        int sum = a + b;
+        System.out.println("Sum of " + a + " and " + b + " is: " + sum);
+
+        // Practice: loop through an array
+        String[] names = {"Alice", "Bob", "Charlie"};
+        for (String name : names) {
+            System.out.println("Hello, " + name);
+        }
+    }
+}
